@@ -344,15 +344,15 @@ function Home() {
             </h2>
 
             <p className="mb-2">
-              📧 support@flavorfusion.com
+              📧 brahman.mratyunjay1311@gmail.com
             </p>
 
             <p className="mb-2">
-              📍 Mumbai, India
+              📍 Aliganj, India
             </p>
 
             <p>
-              ☎ +91 9876543210
+              ☎ +91 7300881306
             </p>
 
           </div>
