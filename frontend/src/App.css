@@ -1,0 +1,20 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.recipe-image{
+  width: 250px;
+  height: 180px;
+  object-fit: cover;
+}
+
+.recipe-card{
+  margin: 20px;
+  padding: 20px;
+}
+
+.main-container{
+  margin-top: 80px;
+}
