@@ -9,11 +9,23 @@ import About from './components/About'
 import Not404FOund from './components/404NotFound'
 import NavBar from './components/Navbar'
 import RecipeDetails from './components/RecipeDetails'
+import LoginModal from './components/LoginModal'
+import { useState } from 'react'
+import RegisterModal from './components/RegisterModal'
 
 function App() {
+
+  const [showLogin,setShowLogin] = useState(false)
+  const [showRegister,setShowRegister] = useState(false)
+
   return (
  <>
- <NavBar/>
+ 
+ <NavBar setShowLogin={setShowLogin} setShowRegister={setShowRegister}/>
+
+ <LoginModal showLogin={showLogin} setShowLogin={setShowLogin} setShowRegister={setShowRegister}/>
+
+ <RegisterModal showRegister={showRegister} setShowRegister={setShowRegister} setShowLogin={setShowLogin}/>
 
   <div className='main-container'>
      <Routes>
